@@ -157,12 +157,7 @@ scripts/                    external evaluation and recruitment analysis
 tests/                      focused unit tests
 ```
 
-## Scope and Attribution
-
-The implementation depends on ProteinMPNN and on the public H3-DDG scaffold for
-basic featurization, sequence decoding, and the local quadruplet operator.
-Those components are fetched from the pinned external checkout and are not
-presented as part of the PhysCoop contribution. See [NOTICE.md](NOTICE.md).
+## License
 
 No license has been declared for this repository yet. The upstream checkout
 remains governed by its own repository terms.
