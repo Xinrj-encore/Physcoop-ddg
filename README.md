@@ -72,6 +72,17 @@ weights/
 in each SKEMPI row determines which structure is parsed. Splits are grouped by
 complex before entries are assigned to folds.
 
+`get_skempi_v2.sh` downloads the public SKEMPI v2 mutation table and PDB archive.
+It requires `wget` and `tar`; run it from the directory in which `SKEMPI_v2/`
+should be created:
+
+```bash
+bash /path/to/PhysCoop-DDG/get_skempi_v2.sh
+```
+
+The extracted dataset contains `skempi_v2.csv` and `PDBs/`. SKEMPI v2 is
+third-party benchmark data and is not redistributed in this repository.
+
 BindingGYM external evaluation additionally expects a structure-resolved
 manifest and structure directory:
 
